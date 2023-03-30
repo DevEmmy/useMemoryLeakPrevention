@@ -1,7 +1,6 @@
 {
   "name": "usememoryleakprevention",
-  "version": "1.0.0",
-  
+  "version": "1.0.1",
   "description": "The useMemoryLeakPrevention hook is a custom React hook that provides an easy way to clean up any resources or subscriptions that might cause memory leaks when a component is unmounted. The hook uses useEffect and useCallback hooks to ensure that the cleanup function is called when the component is unmounted and also when any relevant dependencies change. This hook can help prevent memory leaks in your React application by providing a simple and reusable solution for cleaning up resources and subscriptions.",
   "main": "index.js",
   "scripts": {
