@@ -15,10 +15,10 @@ npm install use-memory-leak-prevention
 Here's an example of how you can use the useMemoryLeakPrevention hook:
 
 ```
-    import React, { useState } from 'react';
+import React, { useState } from 'react';
 import useMemoryLeakPrevention from 'use-memory-leak-prevention';
 
-function Component() {
+const Component = ()=> {
   const [value, setValue] = useState(0);
 
   // Define the cleanup function
